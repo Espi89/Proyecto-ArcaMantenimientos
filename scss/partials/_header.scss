@@ -1,0 +1,23 @@
+.header-contenido-img-texto {
+    width: 100vw;
+    height: 30vh;
+    background-image: url(/public/img/fondo-header.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+        .titulo-principal {
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .subtitulo-principal {
+            font-size: 1.8rem;
+            font-weight: 300;
+            text-align: center;
+
+        }
+}

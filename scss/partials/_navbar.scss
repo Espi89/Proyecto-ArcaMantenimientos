@@ -1,0 +1,23 @@
+.navbar {
+    padding: 0 !important;
+    .container-fluid {
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: $texto-arca-menu;
+        }
+        .navbar-toggler {
+            border-color: rgb(255, 255, 255);
+                .navbar-toggler-icon {
+                    
+                }
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-link {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

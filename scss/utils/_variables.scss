@@ -1,0 +1,28 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+/* COLORES */
+$texto-arca-menu: rgb(216, 29, 29);
+$fondo-contendor-article: rgba(92, 81, 252, 0.61);
+
+/* ARTICLES */
+.contenedor-article {
+    margin: 2em 1em 1em;
+    padding: 1em;
+}
+
+.titulos-article {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    color: blue;
+}
+
+.contenido {
+    font-size: 1.2rem;
+}
+
+.tel-contenido {
+    font-size: 1.2rem;
+
+}

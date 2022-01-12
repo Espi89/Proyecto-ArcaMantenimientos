@@ -1,0 +1,87 @@
+.principal-arca {
+    .contenedor-main {
+        margin: 0;
+        padding: 0;
+            
+    }
+}
+
+/* NUESTROS SERVICIOS */
+
+#contenedor-nuestros-servicios {
+    /* background-color: $fondo-contendor-article; */
+    .nuestros-servicios-contenido {
+        .nuestros-servicios-contenido-svg {
+            img {
+                background: rgb(245, 229, 161);
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
+
+/* ACERCA DE NOSOTROS */
+.nav {
+    .nav-item {
+        .nav-link {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+/* #presupuesto {
+    background-color: $fondo-contendor-article;
+}
+
+#contacto {
+    background-color: $fondo-contendor-article;
+} */
+
+.contenedor-contacto {
+    .contenedor-contacto-texto {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+            .contenedor-contacto-texto-domicilio {
+                display: flex;
+                flex-direction: column;
+                border: 2px solid royalblue;
+                border-radius: 15px;
+                padding: 1em;
+                width: 40vw;
+                    .tel-contenido {
+                        svg {
+                            color: royalblue;
+                        }
+
+                    }
+            }
+            .contenedor-contacto-texto-telefonos {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 40vw;
+                border: 2px solid red;
+                border-radius: 15px;
+                padding: 1em;
+                    .tel-contenido {
+                            svg {
+                                color: red;
+                                margin-right: 1em;
+                            }
+                    }
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+            }
+    }
+
+    .contenedor-contacto-mapa {
+        margin-top: 3em;
+        width: 86vw;
+        border: 1px solid grey;
+        padding: 0;
+    }
+
+}
